@@ -1,0 +1,41 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body
+{
+    margin-top:0 ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+canvas
+{
+    border-radius: 20px;
+}
+a
+{
+    padding: 125px;
+}
+button,#back
+{
+    padding: 15px 40px;
+    border-radius: 7.5px;
+    color: black;
+    font-size: medium;
+    background-color: #33DDFF;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+
+
+
+/*linear-gradient(to right,#FF0000,#FFA500,#FFFF00,#00FF00,#0000FF,#4B0082,#EE82EE)*/

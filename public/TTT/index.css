@@ -1,0 +1,105 @@
+ *
+{
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+body
+{
+    height: 100vh;
+    background:linear-gradient(to right,brown,red,black);
+    /* background: linear-gradient(135deg, 
+    rgba(255,0,0,1) 0%, 
+    rgba(255,154,0,1) 14%, 
+    rgba(208,222,33,1) 28%, 
+    rgba(79,220,74,1) 42%, 
+    rgba(63,218,216,1) 57%, 
+    rgba(47,201,226,1) 71%, 
+    rgba(28,127,238,1) 85%, 
+    rgba(95,21,242,1) 100%); */
+  }
+html{
+    font-size: 16px;
+}
+.outer
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container
+{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.btn
+{
+    background: white;
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 30px;
+    border: none;
+    font-size: 15vmin ;
+    color:black;
+
+}
+#reset:hover ,a:hover{
+    transition-duration: 5ms;
+    background-color: red;
+    color: white;
+    font-size: large;
+   }
+h1
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 13%;
+    margin-right: 10%;
+}
+#reset ,a 
+{
+    padding: 15px 40px;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin: 20px auto 0 60px;
+    text-decoration: none;
+}
+.popup
+{
+    background: linear-gradient(135deg,red,blue,green);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+}
+#new_game
+{
+  font-size: 20px;
+  padding: 15px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+#msg
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.popup.hide
+{
+    display: none;
+}
+
