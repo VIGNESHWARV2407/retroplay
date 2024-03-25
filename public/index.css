@@ -95,7 +95,7 @@ html {
 }
 
 #pong {
-    background: url('./Pong/bg.jpg');
+    background: url('./CSS/pong.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -134,16 +134,16 @@ html {
 
 @media only screen and (max-width:800px) {
 
-    #maze,
-    #slider,
-    #pong {
+    #pong,
+    #slider {
         display: none;
     }
 
     .game_grid {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         margin-left: 25%;
     }
 
@@ -151,12 +151,14 @@ html {
         padding-top: 55%;
     }
 
-    #ttt {
+    #ttt,#maze 
+    {
         width: 300px;
         height: 300px;
     }
 
     #note {
         display: block;
+        font-style:oblique;
     }
 }

@@ -127,13 +127,25 @@ input, select  {
 #instructions {
     margin-top: 530px;
 }
+#mob_instructions {
+    display: none;
+}
 
 
+@media only screen and (max-width: 800px) {
+    #mazeContainer #mazeCanvas
+    {
+        margin-top: 100px;
+        height: 300px;
+        width: 300px;
+    }
+    #backMazeBtn
+    {
+        margin-top: 5px;
+    }
+    #mob_instructions {
+        margin-top: 15px;
+        display: block;
+    }    
 
-/* 
-Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 400px) {
-	input, select {
-	    width: 120px;
-	}
-} */
+}
