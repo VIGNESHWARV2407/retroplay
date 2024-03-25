@@ -147,5 +147,7 @@ input, select  {
         margin-top: 15px;
         display: block;
     }    
-
+    #instructions {
+        display: none;
+    }
 }
